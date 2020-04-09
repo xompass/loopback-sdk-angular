@@ -1,6 +1,6 @@
 {
-  "name": "loopback-sdk-angular",
-  "version": "3.5.0",
+  "name": "xompass-loopback-sdk-angular",
+  "version": "3.6.0",
   "description": "Tool for auto-generating Angular $resource services for LoopBack",
   "engines": {
     "node": ">=10"
