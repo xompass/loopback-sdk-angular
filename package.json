@@ -24,7 +24,7 @@
   "author": "IBM Corp.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/strongloop/loopback-sdk-angular/issues"
+    "url": "https://github.com/xompass/loopback-sdk-angular/issues"
   },
   "dependencies": {
     "ejs": "^2.5.7",
