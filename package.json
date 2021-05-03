@@ -1,6 +1,6 @@
 {
-  "name": "xompass-loopback-sdk-angular",
-  "version": "3.7.0",
+  "name": "@xompass/loopback-sdk-angular",
+  "version": "4.0.0",
   "description": "Tool for auto-generating Angular $resource services for LoopBack",
   "engines": {
     "node": ">=10"
@@ -9,9 +9,7 @@
   "scripts": {
     "generate-loopback-core": "node ./apidocs/describe-builtin-models.js",
     "prepublish": "npm run generate-loopback-core",
-    "test": "mocha && node ./test.e2e/test-server.js node node_modules/karma/bin/karma start --single-run  --browsers PhantomJS",
-    "lint": "eslint .",
-    "posttest": "npm run generate-loopback-core && npm run lint"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -28,34 +26,10 @@
   },
   "dependencies": {
     "ejs": "^2.5.7",
-    "strong-globalize": "^4.1.2"
+    "uglify-js": "^3.13.5"
   },
   "devDependencies": {
-    "angular": "^1.4.9",
-    "angular-mocks": "^1.4.9",
-    "angular-resource": "^1.4.9",
-    "bluebird": "^3.1.4",
-    "body-parser": "^1.5",
-    "chai": "^1.9",
-    "cors": "^2.2",
-    "debug": "^2.2.0",
-    "errorhandler": "^1.1.1",
-    "eslint": "^2.5.3",
-    "eslint-config-loopback": "^1.0.0",
-    "express": "^4.6",
-    "fs.extra": "^1.2",
-    "karma": "^0.13.19",
-    "karma-chrome-launcher": "^0.2.2",
-    "karma-junit-reporter": "^0.3.8",
-    "karma-mocha": "^0.2.1",
-    "karma-mocha-reporter": "^1.1.5",
-    "karma-phantomjs-launcher": "^1.0.1",
-    "karma-requirejs": "^0.2.1",
     "loopback": "^3.0",
-    "loopback-datasource-juggler": "^3.0",
-    "mocha": "~1.18.0",
-    "morgan": "^1.2",
-    "phantomjs-prebuilt": "^2.1.7",
-    "requirejs": "^2.1.9"
+    "loopback-datasource-juggler": "^3.0"
   }
 }
